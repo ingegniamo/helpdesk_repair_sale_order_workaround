@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "",
+    'name': "Helpdesk repair sale order workaround",
     
     'summary': "",
   
@@ -10,12 +10,12 @@
 
     'category': '',
   
-    'version': '18.0.0.1',
+    'version': '17.0.0.1',
   
-    'website'METTERE LINK GITHUB completo: "https://github.com/ingegniamo",
+    'website': "https://github.com/ingegniamo/helpdesk_repair_sale_order_workaround",
 
     # any module necessary for this one to work correctly
-    'depends': [],
+    'depends': ['helpdesk_repair'],
     
     # always loaded
     'data': [],
