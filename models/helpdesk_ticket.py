@@ -12,7 +12,7 @@ def _prepare_repairs_default_value(self):
             'default_ticket_id': self.id,
             'default_company_id': self.company_id.id,
             'default_description': self.name,
-            'default_sale_order_id': self.user_has_groups('sales_team.group_sale_salesman,account.group_account_invoice')
+            'default_sale_order_id': self.env.user.has_groups('sales_team.group_sale_salesman,account.group_account_invoice')
                                       and self.sale_order_id.id or False,
             'default_user_id': False,
             'default_team_id': False,

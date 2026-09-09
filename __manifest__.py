@@ -10,7 +10,7 @@
 
     'category': '',
   
-    'version': '17.0.0.1',
+    'version': '19.0.1.0.0',
   
     'website': "https://github.com/ingegniamo/helpdesk_repair_sale_order_workaround",
 
